@@ -1,0 +1,16 @@
+{
+  "name": "idkwhichfullstack",
+  "version": "1.0.0",
+  "description": "a backend ",
+  "keywords": [
+    "javascript",
+    "bakend"
+  ],
+  "license": "ISC",
+  "author": "R Navaneeth Shenoy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
