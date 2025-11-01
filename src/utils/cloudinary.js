@@ -30,9 +30,4 @@ const uploadOnCloudinary = async (localFilePath) => {
     }
 }
 
-    cloudinary.v2.uploader.upload_stream("http://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png",
-        {
-            public_id: "basketball"
-            ,
-        },
-        function (error, result) { console.log(result, error); });
+export { uploadOnCloudinary };
